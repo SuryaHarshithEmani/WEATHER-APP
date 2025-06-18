@@ -5,7 +5,7 @@
 "DOMAIN": Full Stack Web Development 
 "DURATION": 8 WEEKS  
 "MENTOR": NEELA SANTOSH
-Decription:
+# Decription:
 This is a simple yet smart weather application I built that shows real-time weather updates and a 5-day forecast for any city in the world. The goal was to make it clean, modern, and easy to use. You just enter a city name or tap the “Current Location” button, and it instantly gives you the weather details for that place.
 
 The app shows the current temperature, weather condition (like cloudy, sunny, rainy), and also the date and time, so you know exactly what the weather is like right now. There’s also a section that shows a 5-day forecast, with weather icons and temperatures for each day. It gives a clear picture of what the week ahead looks like.
