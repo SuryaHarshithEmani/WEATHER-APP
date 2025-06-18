@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Weather App</title>
+  <link href="https://pro.fontawesome.com/releases/v6.0.0-beta3/css/all.css" rel="stylesheet" />
+  <link href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <!-- Header Section -->
+    <div class="header">
+      <h2>Weather</h2>
+      <div id="dateTimeDisplay" class="date-time"></div>
+      <div class="search-box">
+        <input type="text" id="city_input" placeholder="Enter city name" />
+        <button id="searchbtn"><i class="fa-regular fa-search"></i> Search</button>
+        <button id="locationBtn"><i class="bx bx-target-lock"></i> Current Location</button>
+      </div>
+    </div>
+
+    <!-- Current Weather -->
+    <div class="grid" id="nowSection">
+      <div class="card">
+        <div class="current-weather">
+          <div class="details">
+            <p>Now</p>
+            <h2 id="temp">__ &deg;C</h2>
+            <p id="desc">______</p>
+          </div>
+          <div class="weather-icon">
+            <img id="weatherIcon" src="https://openweathermap.org/img/wn/04d@2x.png" alt="Weather Icon" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 5 Days Forecast -->
+    <h3 class="section-title">5 Days Forecast</h3>
+    <div class="grid" id="forecast"></div>
+
+    <!-- Today's Highlights -->
+    <h3 class="section-title">Today's Highlights</h3>
+    <div class="highlight-container" id="highlights"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
