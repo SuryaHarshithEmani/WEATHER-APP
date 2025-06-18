@@ -1,0 +1,116 @@
+:root {
+  --bg-color: #1c1c1e;
+  --card-color: #2c2c2e;
+  --text-color: #ffffff;
+  --accent-color: #ff6b00;
+  --gray: #aaa;
+}
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
+
+.container {
+  padding: 20px;
+  max-width: 1100px;
+  margin: auto;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+  flex-wrap: wrap;
+}
+
+.header h2 {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.search-box {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+#city_input {
+  background-color: var(--card-color);
+  border: none;
+  padding: 10px 15px;
+  border-radius: 25px;
+  font-size: 16px;
+  color: var(--text-color);
+  width: 250px;
+}
+
+button {
+  background-color: var(--accent-color);
+  color: white;
+  border: none;
+  border-radius: 25px;
+  padding: 10px 20px;
+  font-size: 15px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background-color: #e85d00;
+}
+
+.section-title {
+  font-size: 20px;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 15px;
+}
+
+.card {
+  background-color: var(--card-color);
+  border-radius: 12px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
+}
+
+.card img {
+  width: 60px;
+  margin: 10px 0;
+}
+
+.forecast-card h4 {
+  margin: 5px 0;
+  color: var(--gray);
+}
+
+.details h2 {
+  font-size: 32px;
+  margin: 10px 0;
+}
+
+.details p {
+  margin: 2px 0;
+}
+
+.card h3 {
+  font-size: 18px;
+  color: var(--gray);
+  margin-bottom: 5px;
+}
+
+.highlight-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 15px;
+  margin-top: 20px;
+}
