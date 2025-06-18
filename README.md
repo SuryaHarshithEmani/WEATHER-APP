@@ -19,4 +19,8 @@ Technically, the app is built using HTML, CSS, and JavaScript, and it uses the O
 This project helped me learn how to work with real APIs, manage JSON data, and improve UI/UX with responsive design. Overall, it’s a clean, minimal weather app that looks good and works well — and I’m excited to keep adding more features in the future!
 
 Output:
+London weather output
 ![Image](https://github.com/user-attachments/assets/821e9cd3-2fd1-4f8d-a114-89a87594ba60)
+
+Kakinada weather output
+![Image](https://github.com/user-attachments/assets/6a944f0b-a108-4daf-ac31-1f6dedf44b70)
